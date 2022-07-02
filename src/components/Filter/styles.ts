@@ -2,8 +2,8 @@ import styled, { css } from 'styled-components';
 
 export const Wrapper = styled.aside`
   height: 100vh;
-  max-width: 40rem;
-  text-align: center;
+  padding-left: 15.5rem;
+  margin-right: 3rem;
 `;
 
 export const title = styled.h3`

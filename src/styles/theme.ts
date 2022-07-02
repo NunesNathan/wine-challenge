@@ -28,6 +28,7 @@ export default {
     redViolet: '#d14b8f',
     pink: '#ef58ad',
     lightGrey: '#555',
+    silver: '#ccc',
     grey: '#666',
     darkGrey: '#888',
     blackMetal: '#1d1d1b',
