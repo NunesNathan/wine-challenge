@@ -1,5 +1,5 @@
-import Main from 'components/Main';
+import Filter from 'components/Filter';
 
 export default function Home() {
-  return <Main />;
+  return <Filter />;
 }
