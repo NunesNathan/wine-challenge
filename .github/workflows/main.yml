@@ -1,5 +1,7 @@
 name: Verify PR
-on: [pull_request]
+on: 
+  pull_request:
+    types: [opened, synchronize]
 
 jobs:
   build:
@@ -23,4 +25,4 @@ jobs:
           run: npm run test:ci
 
         - name: Build
-          run: npm build
+          run: npm run build
