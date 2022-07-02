@@ -1,10 +1,10 @@
 import Filter from 'components/Filter';
-import Logo from 'components/Logo';
+import CartIcon from 'components/CartIcon';
 
 export default function Home() {
   return (
     <>
-      <Logo />
+      <CartIcon />
       <Filter />
     </>
   );

@@ -1,11 +1,11 @@
 import { useEffect, useState } from 'react';
 import * as S from './styles';
 
-interface ILogoProps {
+interface ICartIconProps {
   count?: number;
 }
 
-export default function Logo({ count = 0 }: ILogoProps) {
+export default function CartIcon({ count = 0 }: ICartIconProps) {
   const [labelText, setLabelText] = useState('vazia');
 
   useEffect(() => {
