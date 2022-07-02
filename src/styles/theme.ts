@@ -32,7 +32,7 @@ export default {
     grey: '#666',
     darkGrey: '#888',
     darkestGrey: '#333',
-    Metal: '#1d1d1b',
+    metal: '#1d1d1b',
     darkMetal: '#111',
     black: '#000',
   },
