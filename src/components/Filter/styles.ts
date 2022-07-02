@@ -15,3 +15,14 @@ export const title = styled.h3`
     font-weight: 700;
   `}
 `;
+
+export const type = styled.h4`
+  ${({ theme }) => css`
+    margin-top: 3.2rem;
+    margin-bottom: 3rem;
+    color: ${theme.color.darkestGrey};
+    font-family: ${theme.font.family.primary};
+    font-size: ${theme.font.size.large};
+    font-weight: 700;
+  `}
+`;
