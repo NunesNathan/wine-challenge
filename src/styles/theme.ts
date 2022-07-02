@@ -23,6 +23,7 @@ export default {
     white: '#fff',
     bg: '#dedede',
     green: '#7ebc43',
+    chardonnay: '#00b495',
     highlight: '#f79552',
     redViolet: '#d14b8f',
     pink: '#ef58ad',
@@ -32,5 +33,11 @@ export default {
     blackMetal: '#1d1d1b',
     darkestGrey: '#111',
     black: '#000',
+  },
+  layers: {
+    menu: 20,
+    overlay: 30,
+    modal: 40,
+    alwaysOnTop: 50,
   },
 } as const;
