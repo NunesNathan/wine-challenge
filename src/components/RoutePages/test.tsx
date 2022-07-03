@@ -1,5 +1,5 @@
 import { screen } from '@testing-library/react';
-import renderRight from 'utils/test';
+import renderRight from 'utils/tests/test';
 import RoutePages from '.';
 
 describe('<RoutePages />', () => {

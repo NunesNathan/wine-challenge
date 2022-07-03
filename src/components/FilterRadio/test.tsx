@@ -1,6 +1,6 @@
 import { screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import renderRight from 'utils/test';
+import renderRight from 'utils/tests/test';
 import FilterRadio from '.';
 
 describe('<FilterRadio />', () => {
