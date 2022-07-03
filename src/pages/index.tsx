@@ -1,11 +1,12 @@
-import Filter from 'components/Filter';
-import Header from 'components/Header';
+import { useRouter } from 'next/router';
+import { useEffect } from 'react';
 
 export default function Home() {
-  return (
-    <>
-      <Header />
-      <Filter />
-    </>
-  );
+  const { push } = useRouter();
+
+  useEffect(() => {
+    push('/loja-vinhos');
+  });
+
+  return <h1>Carregando...</h1>;
 }
