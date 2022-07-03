@@ -1,3 +1,4 @@
+import AddButton from 'components/AddButton';
 import { memberPrices, addComma } from 'utils/helpers';
 import { IVine } from 'utils/tests/wineMock';
 import * as S from './styles';
@@ -25,6 +26,9 @@ export default function CardItem({ item }: ICardItemProps) {
       <S.nonMemberPrice>
         NÃO SÓCIO R$ {addComma(item.priceNonMember)}
       </S.nonMemberPrice>
+      <S.add>
+        <AddButton />
+      </S.add>
     </S.wrapper>
   );
 }

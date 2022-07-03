@@ -101,3 +101,20 @@ export const nonMemberPrice = styled.p`
     margin-bottom: 2.149rem;
   `}
 `;
+
+export const add = styled.button`
+  ${({ theme }) => css`
+    margin-top: 5rem;
+    background-color: ${theme.color.green};
+    height: 4rem;
+    width: 25.6rem;
+    border-radius: 0.38rem;
+    box-shadow: 0px 0.973384px 1.94677px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    padding: 11.6806px 23.3612px;
+    cursor: pointer;
+  `}
+`;

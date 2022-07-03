@@ -71,4 +71,18 @@ describe('<CardItem />', () => {
       color: '#888',
     });
   });
+
+  it('should render the add button', () => {
+    renderRight(<CardItem item={MockedWine} />);
+
+    const button = screen.getByRole('button', { name: /adicionar/i });
+
+    expect(button).toBeInTheDocument();
+    expect(button).toHaveStyle({
+      'border-radius': '0.38rem',
+      border: 'none',
+      padding: '11.6806px 23.3612px',
+      cursor: 'pointer',
+    });
+  });
 });
