@@ -2,9 +2,7 @@ import styled, { css } from 'styled-components';
 
 export const Wrapper = styled.aside`
   height: 100vh;
-  padding-left: 15.9rem;
   margin-top: 4rem;
-  margin-right: 3rem;
 `;
 
 export const title = styled.h3`
