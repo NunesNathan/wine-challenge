@@ -15,21 +15,21 @@ Este projeto usa principalmente:
 - [Prettier](https://prettier.io/)
 - [Husky](https://github.com/typicode/husky)
 
-## Getting Started
+## Abrindo localmente
 
-First, run the development server:
+- Clone o projeto
+
+- Abra o terminal do repositório:
 
 ```bash
 npm run dev
-# or
+# ou
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Estará disponível em [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-## Commands
+## Comandos
 
 - `dev`: runs your application on `localhost:3000`
 - `build`: creates the production build version
@@ -38,10 +38,18 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 - `test`: runs jest to test all components and pages
 - `test:watch`: runs jest in watch mode
 
-## Learn More
+## Um pouco mais
 
-[...]
+Apesar de não concluído, gostei bastante do desafio, visto que não tinha experiência nunhuma em Next.js e amei estudar e conhecer. Meu flow de desenvolvimento foi: 
+
+- Como usei um boilerplate, comecei configurando ele.
+- Meu objetivo era seguir o protótipo acima de tudo. Então comecei pegando algumas a maioria das cores e tamanhos de fonte.
+- Não consegui achar um jeito de usar a segunda fonte(Neo sans STD), então usei a mais similar que consegui achar
+- Comecei fazendo por TDD
+- Meus próximos passos eram, terminar o layout, adicionar mais acessibilidade e melhorar a experiência do usuário.
 
 ## Deploy on Vercel
 
-[...]
+você pode conferir o projeto em:
+
+https://wine-challenge-khaki.vercel.app/
