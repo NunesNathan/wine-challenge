@@ -1,1 +1,47 @@
-export default {} as const;
+export default {
+  font: {
+    family: {
+      primary: 'Lato',
+      secondary: 'Titillium Web',
+    },
+    size: {
+      xsmaller: '1rem',
+      smaller: '1.1rem',
+      xxxsmall: '1.2rem',
+      xxsmall: '1.4rem',
+      xsmall: '1.44rem',
+      small: '1.557rem',
+      regular: '1.6rem',
+      large: '1.8rem',
+      xlarge: '2rem',
+      xxlarge: '2.3rem',
+      xxxlarge: '2.4rem',
+      larger: '2.8rem',
+    },
+  },
+  color: {
+    white: '#fff',
+    bg: '#dedede',
+    green: '#7ebc43',
+    chardonnay: '#00b495',
+    highlight: '#f79552',
+    redViolet: '#d14b8f',
+    magenta: '#b6116e',
+    pink: '#ef58ad',
+    silver: '#ccc',
+    lightGrey: '#555',
+    grey: '#666',
+    darkGrey: '#888',
+    darkestGrey: '#333',
+    lightMetal: '#262626',
+    metal: '#1d1d1b',
+    darkMetal: '#111',
+    black: '#000',
+  },
+  layers: {
+    menu: 20,
+    overlay: 30,
+    modal: 40,
+    alwaysOnTop: 50,
+  },
+} as const;
